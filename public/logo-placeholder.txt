@@ -1,0 +1,10 @@
+Save the Christian Borja logo image as:
+public/logo.png
+
+The logo should be the green and white logo with:
+- Muscular arm with leaves icon on the left
+- "CHRISTIAN BORJA" text in dark green
+- "HOLISTIC HEALTH & FITNESS" subtitle in lighter green
+
+This logo will be used in the Header and Footer components.
+

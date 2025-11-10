@@ -1,0 +1,5 @@
+Please save the beach training image (with trainer and client doing kettlebell squat at sunset) as:
+public/hero.jpg
+
+This will be used as the hero background image.
+

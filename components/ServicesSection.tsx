@@ -59,7 +59,7 @@ export default function ServicesSection() {
             />
             
             {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/40 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/50 transition-all duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/20 group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black/30 transition-all duration-500" />
             
             {/* Content */}
             <div className="absolute inset-0 flex items-center justify-center z-10">
@@ -92,7 +92,7 @@ export default function ServicesSection() {
             />
             
             {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-black/40 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/50 transition-all duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/20 group-hover:from-black/50 group-hover:via-black/40 group-hover:to-black/30 transition-all duration-500" />
             
             {/* Content */}
             <div className="absolute inset-0 flex items-center justify-center z-10">

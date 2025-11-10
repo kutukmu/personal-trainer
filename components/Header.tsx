@@ -121,7 +121,7 @@ export default function Header() {
           />
           
           {/* Menu Panel */}
-          <div className="fixed top-0 right-0 bottom-0 w-80 bg-white z-[70] md:hidden overflow-y-auto shadow-2xl animate-slideInRight">
+          <div className="fixed top-0 right-0 bottom-0 w-full bg-white z-[70] md:hidden overflow-y-auto shadow-2xl animate-slideInRight">
             <div className="flex flex-col h-full p-6">
               {/* Close button */}
               <div className="flex justify-end mb-8">
@@ -154,7 +154,7 @@ export default function Header() {
                 <div>
                   <button
                     onClick={() => setProgramsOpen(!programsOpen)}
-                    className="w-full bg-sea-green text-white font-semibold px-6 py-4 rounded-full flex items-center justify-between hover:bg-dartmouth-green transition-colors"
+                    className="w-full bg-sea-green text-white font-semibold px-6 py-3 rounded-full flex items-center justify-between hover:bg-dartmouth-green transition-colors"
                   >
                     <span>Programs</span>
                     <svg
@@ -232,7 +232,7 @@ export default function Header() {
               <div className="space-y-4 mt-auto pb-8">
                 <a
                   href="#contact"
-                  className="block w-full bg-sea-green text-white font-bold text-center px-6 py-4 rounded-full hover:bg-dartmouth-green transition-colors"
+                  className="block w-full bg-sea-green text-white font-bold text-center px-6 py-3 rounded-full hover:bg-dartmouth-green transition-colors"
                   onClick={() => {
                     setMobileMenuOpen(false);
                     setProgramsOpen(false);
@@ -243,7 +243,7 @@ export default function Header() {
 
                 <a
                   href="tel:8586928824"
-                  className="block w-full bg-white border-2 border-dartmouth-green text-dartmouth-green font-semibold text-center px-6 py-4 rounded-full hover:bg-nyanza transition-colors flex items-center justify-center gap-3"
+                  className="block w-full bg-white border-2 border-dartmouth-green text-dartmouth-green font-semibold text-center px-6 py-3 rounded-full hover:bg-nyanza transition-colors flex items-center justify-center gap-3"
                   onClick={() => {
                     setMobileMenuOpen(false);
                     setProgramsOpen(false);

@@ -26,9 +26,9 @@ export default function Header() {
             <Image
               src="/logo.png"
               alt="Christian Borja - Holistic Health & Fitness"
-              width={400}
-              height={100}
-              className="h-16 w-auto sm:h-20"
+              width={450}
+              height={150}
+              className="h-20 w-auto sm:h-24"
               priority
             />
           </Link>

@@ -10,13 +10,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1">
-            <div className="mb-4 bg-white rounded-lg p-2 inline-block">
+            <div className="mb-4 bg-white rounded-lg  inline-block">
               <Image
                 src="/logo.png"
                 alt="Christian Borja - Holistic Health & Fitness"
-                width={400}
-                height={100}
-                className="h-20 w-auto"
+                width={500}
+                height={140}
+                className="h-30 w-auto"
               />
             </div>
             <p className="text-natural-400 text-sm">

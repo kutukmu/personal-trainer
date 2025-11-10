@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center pt-24">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-dark-green/90 via-dartmouth-green/80 to-sea-green/70 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-dark-green/70 via-dartmouth-green/60 to-sea-green/50 z-10" />
         {/* Hero Background Image */}
         <Image
           src="/hero.png"
@@ -20,12 +20,12 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-20 w-full px-6 sm:px-12 lg:px-20 py-20">
         <div className="max-w-2xl">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-[1.1]">
+          <h1 className="text-4xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-[1.1]">
             Transform Your Body,
             <br />
             <span className="text-mint">Elevate Your Life</span>
           </h1>
-          <p className="text-lg sm:text-xl text-white/95 mb-10 leading-relaxed max-w-xl">
+          <p className="text-lg sm:text-lg text-white/95 mb-10 leading-relaxed max-w-xl">
             Experience personalized holistic health and fitness coaching designed for your unique journey. Let's build strength, wellness, and lasting transformation together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

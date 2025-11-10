@@ -18,14 +18,14 @@ export default function BottomCTA() {
   if (!isVisible || isDismissed) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 animate-slideUp">
-      <div className="bg-gradient-to-r from-dark-green via-dartmouth-green to-sea-green shadow-2xl border-t-2 border-gray-300">
+    <div className="fixed bottom-0 left-0 right-0 z-50 animate-slideUp md:hidden">
+      <div className="bg-white shadow-2xl border-t-2 border-gray-300">
         <div className="max-w-7xl mx-auto px-4 py-5">
           {/* Content */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <div className="flex flex-col gap-3">
             <a
               href="#contact"
-              className="w-full sm:w-auto bg-white text-sea-green hover:bg-nyanza font-bold px-6 py-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-center text-sm"
+              className="w-full bg-sea-green text-white hover:bg-dartmouth-green font-bold px-6 py-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 text-center text-sm"
               onClick={() => setIsDismissed(true)}
             >
               Book My Free Estimate
@@ -33,7 +33,7 @@ export default function BottomCTA() {
 
             <a
               href="tel:8586928824"
-              className="w-full sm:w-auto bg-transparent border-2 border-white text-white hover:bg-white/10 font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm"
+              className="w-full bg-white border-2 border-dartmouth-green text-dartmouth-green hover:bg-nyanza font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm"
               onClick={() => setIsDismissed(true)}
             >
               <svg
